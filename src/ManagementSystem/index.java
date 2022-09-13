@@ -248,7 +248,7 @@ class ManagementSystem{
 			System.out.println("===[[No files in the directory (•ิ_•ิ)? ]]===");
 		}
 		String[] FileNames = new String[numFiles+2];
-		int i=1;
+		int i=0;
 
 		for (File fileEntry : folder.listFiles()) {
 			i++;
