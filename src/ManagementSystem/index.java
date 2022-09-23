@@ -419,7 +419,7 @@ class ManagementSystem{
 		System.out.println("[3] Actions for Files");
 		System.out.println("[4] Update the Folder path");
 		System.out.println("[5] Exit");
-		return ScannerResult(1,4);
+		return ScannerResult(1,5);
 	}
 
 	void MainMenuActionFilter(int x) {
